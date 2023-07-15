@@ -1,9 +1,22 @@
 import { createUseStyles } from "react-jss";
 
 const useStyle = createUseStyles(
-  {},
   {
-    name: "global",
+    "@global": {
+      "@font-face": [
+        {
+          fontFamily: "italic",
+          src: "url(/assets/fonts/OpenSans-Italic.ttf)",
+        },
+        {
+          fontFamily: "variable",
+          src: "url(/assets/fonts/OpenSans-Variable.ttf)",
+        },
+      ],
+    },
+  },
+  {
+    name: "Global",
   }
 );
 

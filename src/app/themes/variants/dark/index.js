@@ -2,7 +2,7 @@ const typography = {
   body: {
     fontFamily: "Montserrat-Black",
     lineHeight: 1.1,
-    fontSize: 16,
+    fontSize: 150,
   },
   header1: {
     fontFamily: "Montserrat-Regular",

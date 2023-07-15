@@ -1,9 +1,15 @@
-import { NCoreProvider } from "ncore-web";
+import { NCoreProvider, Text } from "ncore-web";
 import themes from "./themes";
 import useStyles from "./stylesheet";
 import locales from "./locales";
+import Navigation from "./navigation";
 const App = () => {
-  return <div className="App">Sezai Öztürk</div>;
+  const classes = useStyles();
+  return (
+    <div className="App">
+      <Navigation />
+    </div>
+  );
 };
 
 const ContextAPI = () => {
