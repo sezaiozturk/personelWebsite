@@ -2,6 +2,11 @@
   "code": "tr",
   "RTL": "false",
   "translations": {
-    "message": "Merhaba"
+    "message": "Merhaba",
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "hello": "MERHABA! BEN SEZAİ",
+    "welcome": "Web siteme hoş geldiniz!",
+    "job": "Ben bir mobil geliştiriciyim."
   }
 }

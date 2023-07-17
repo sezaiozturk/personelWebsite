@@ -6,12 +6,20 @@ const typography = {
   },
   header1: {
     fontFamily: "Montserrat-Regular",
-    lineHeight: 2,
-    fontSize: 50,
+    border: "4px solid #72b76a",
+    textAlign: "center",
+    backdropFilter: "blur(1px)",
+    padding: "3.5rem",
+    fontSize: "5rem",
+    margin: "3rem",
+  },
+  header2: {
+    fontFamily: "Montserrat-Regular",
+    fontSize: "1.6rem",
   },
 };
 const colors = {
-  primary: "#14FF00",
+  primary: "#72b76a",
   secondary: "white",
 };
 export default {

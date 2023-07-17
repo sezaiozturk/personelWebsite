@@ -3,6 +3,10 @@ import { createUseStyles } from "react-jss";
 const useStyle = createUseStyles(
   {
     "@global": {
+      html: {
+        fontSize: "62.5%",
+        userSelect: "none",
+      },
       "@font-face": [
         {
           fontFamily: "italic",

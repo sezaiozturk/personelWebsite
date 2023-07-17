@@ -2,6 +2,10 @@
   "code": "en",
   "RTL": "false",
   "translations": {
-    "message": "Hello"
+    "home": "Home",
+    "about": "About",
+    "hello": "HELLO! I'M SEZAİ",
+    "welcome": "Welcome to my website!",
+    "job": "I'm a mobile developer."
   }
 }
