@@ -43,7 +43,19 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className={classes.aboutImageContainer}></div>
+        <div className={classes.aboutImageContainer} id="about"></div>
+      </div>
+      <div className={classes.area} style={{ backgroundColor: colors.gray100 }}>
+        <div className={classes.areaBox}>
+          <img src="/assets/images/laptop.png" style={{ width: 160 }} />
+          <span>{localize("web")}</span>
+          <span>{localize("webDescription")}</span>
+        </div>
+        <div className={classes.areaBox}>
+          <img src="/assets/images/telephone.png" style={{ width: 75 }} />
+          <span>{localize("app")}</span>
+          <span>{localize("appDescription")}</span>
+        </div>
       </div>
     </div>
   );

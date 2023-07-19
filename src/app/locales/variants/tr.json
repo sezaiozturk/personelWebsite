@@ -2,7 +2,6 @@
   "code": "tr",
   "RTL": "false",
   "translations": {
-    "message": "Merhaba",
     "home": "Ana Sayfa",
     "about": "Hakkımda",
     "hello": "MERHABA! BEN SEZAİ",
@@ -11,6 +10,10 @@
     "aboutMe": "HAKKIMDA",
     "aboutMeTitle": "lorem ipsumlorem ipsumlorem ipsum ",
     "aboutMeSubTitle": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-    "cv": "CV İNDİR"
+    "cv": "CV İNDİR",
+    "web": "Web Tasarımı",
+    "app": "Uygulama Tasarımı",
+    "webDescription": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+    "appDescription": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
   }
 }

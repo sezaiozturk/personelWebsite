@@ -34,7 +34,7 @@ const colors = {
   secondary: "#323232",
   white: "white",
   gray: "#B1B1B1",
-  gray100: "#707070",
+  gray100: "#303030",
 };
 export default {
   key: "light",

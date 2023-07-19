@@ -50,9 +50,35 @@ const useStyle = createUseStyles(
       },
     },
     aboutImageContainer: {
-      backgroundColor: "yellow",
       display: "flex",
       flex: 1.3,
+    },
+    area: {
+      justifyContent: "space-evenly",
+      alignItems: "center",
+      display: "flex",
+      width: "100%",
+      height: "40%",
+    },
+    areaBox: {
+      flexDirection: "column",
+      alignItems: "center",
+      textAlign: "center",
+      display: "flex",
+      padding: "3rem",
+      height: "100%",
+      margin: "2rem",
+      gap: "1.5rem",
+      width: "20%",
+      "& span:nth-child(2)": {
+        fontSize: "2.3rem",
+        color: "white",
+      },
+      "& span:nth-child(3)": {
+        fontSize: "1.3rem",
+        lineHeight: "2rem",
+        color: "white",
+      },
     },
   },
   {

@@ -10,6 +10,10 @@
     "aboutMe": "ABOUT ME",
     "aboutMeTitle": "lorem ipsumlorem ipsumlorem ipsum ",
     "aboutMeSubTitle": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-    "cv": "DOWNLOAD CV"
+    "cv": "DOWNLOAD CV",
+    "web": "Web Design",
+    "app": "App Design",
+    "webDescription": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+    "appDescription": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
   }
 }
