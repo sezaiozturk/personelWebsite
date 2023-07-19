@@ -6,7 +6,7 @@ const useStyle = createUseStyles(
     container: {
       flexDirection: "row",
       alignItems: "center",
-      position: "fixed",
+      position: "absolute",
       display: "flex",
       width: "100%",
       gap: 10,

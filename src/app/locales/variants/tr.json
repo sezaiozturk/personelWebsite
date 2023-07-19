@@ -7,6 +7,10 @@
     "about": "Hakkımda",
     "hello": "MERHABA! BEN SEZAİ",
     "welcome": "Web siteme hoş geldiniz!",
-    "job": "Ben bir mobil geliştiriciyim."
+    "job": "Ben bir mobil geliştiriciyim.",
+    "aboutMe": "HAKKIMDA",
+    "aboutMeTitle": "lorem ipsumlorem ipsumlorem ipsum ",
+    "aboutMeSubTitle": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+    "cv": "CV İNDİR"
   }
 }

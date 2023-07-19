@@ -6,6 +6,10 @@
     "about": "About",
     "hello": "HELLO! I'M SEZAİ",
     "welcome": "Welcome to my website!",
-    "job": "I'm a mobile developer."
+    "job": "I'm a mobile developer.",
+    "aboutMe": "ABOUT ME",
+    "aboutMeTitle": "lorem ipsumlorem ipsumlorem ipsum ",
+    "aboutMeSubTitle": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+    "cv": "DOWNLOAD CV"
   }
 }

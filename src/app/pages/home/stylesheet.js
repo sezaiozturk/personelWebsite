@@ -2,7 +2,7 @@ import { createUseStyles } from "react-jss";
 import { clickEvents } from "../../themes/helpers";
 const useStyle = createUseStyles(
   {
-    container: {
+    homeSection: {
       backgroundImage: 'url("/assets/images/background.jpg")',
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center",
@@ -24,9 +24,35 @@ const useStyle = createUseStyles(
       gap: "1.2rem",
     },
     scrool: {
-      width: 30,
-      height: 30,
       ...clickEvents(),
+      height: 30,
+      width: 30,
+    },
+    aboutSection: {
+      display: "flex",
+      height: "100vh",
+      width: "100%",
+    },
+    aboutContentContainer: {
+      padding: "10rem",
+      display: "flex",
+      flex: 1.7,
+    },
+    aboutInfoContainer: {
+      flexDirection: "column",
+      textAlign: "left",
+      display: "flex",
+      "& div:nth-child(2)": {
+        flexDirection: "column",
+        marginTop: "2rem",
+        display: "flex",
+        gap: "4rem",
+      },
+    },
+    aboutImageContainer: {
+      backgroundColor: "yellow",
+      display: "flex",
+      flex: 1.3,
     },
   },
   {
