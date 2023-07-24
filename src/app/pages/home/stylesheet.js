@@ -56,6 +56,7 @@ const useStyle = createUseStyles(
     area: {
       justifyContent: "space-evenly",
       alignItems: "center",
+      backgroundColor: ({ color }) => color.gray100,
       display: "flex",
       width: "100%",
       height: "40%",
@@ -68,17 +69,49 @@ const useStyle = createUseStyles(
       padding: "3rem",
       height: "100%",
       margin: "2rem",
-      gap: "1.5rem",
+      gap: "1.7rem",
       width: "20%",
       "& span:nth-child(2)": {
         fontSize: "2.3rem",
-        color: "white",
+        color: ({ color }) => color.white,
       },
       "& span:nth-child(3)": {
         fontSize: "1.3rem",
         lineHeight: "2rem",
-        color: "white",
+        color: ({ color }) => color.gray,
       },
+    },
+    contactSection: {
+      display: "flex",
+      width: "100%",
+      height: "50vh",
+    },
+    contactInfo: {
+      justifyContent: "center",
+      flexDirection: "column",
+      alignItems: "left",
+      display: "flex",
+      alignItems: "center",
+      gap: "3rem",
+      flex: 0.35,
+      "& div:nth-child(2)": {
+        flexDirection: "column",
+        display: "flex",
+        gap: "1rem",
+        "& span": {
+          fontSize: "1.8rem",
+          color: ({ color }) => color.gray,
+        },
+      },
+      "& div:nth-child(3)": {
+        display: "flex",
+        gap: "1rem",
+      },
+    },
+    contactForm: {
+      display: "flex",
+      flex: 0.65,
+      backgroundColor: ({ color }) => color.primary,
     },
   },
   {

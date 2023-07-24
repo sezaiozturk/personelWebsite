@@ -7,9 +7,9 @@ import {
   useNCoreTheme,
 } from "ncore-web";
 const Home = () => {
-  const classes = useStyle();
   const { localize } = useNCoreLocalization();
   const { colors } = useNCoreTheme();
+  const classes = useStyle({ color: colors });
   return (
     <div style={classes.container}>
       <div className={classes.homeSection}>
@@ -39,13 +39,19 @@ const Home = () => {
               <Text variant="header4" color="gray100">
                 {localize("aboutMeSubTitle")}
               </Text>
-              <Button title={localize("cv")} color="secondary" />
+              <Button
+                title={localize("cv")}
+                color="secondary"
+                icon={() => (
+                  <img src="/assets/icons/download.png" style={{ width: 20 }} />
+                )}
+              />
             </div>
           </div>
         </div>
         <div className={classes.aboutImageContainer} id="about"></div>
       </div>
-      <div className={classes.area} style={{ backgroundColor: colors.gray100 }}>
+      <div className={classes.area}>
         <div className={classes.areaBox}>
           <img src="/assets/images/laptop.png" style={{ width: 160 }} />
           <span>{localize("web")}</span>
@@ -56,6 +62,48 @@ const Home = () => {
           <span>{localize("app")}</span>
           <span>{localize("appDescription")}</span>
         </div>
+      </div>
+      <div className={classes.contactSection}>
+        <div
+          className={classes.contactInfo}
+          style={{ backgroundColor: colors.gray100 }}
+        >
+          <div>
+            <Text variant="header3" color="white">
+              {localize("contact")}
+            </Text>
+          </div>
+          <div>
+            <span>Sezai ÖZTÜRK</span>
+            <span>536 850 54 90</span>
+            <span>İstanbul \ Kartal</span>
+            <span>ozturksezai52@gmail.com</span>
+          </div>
+          <div>
+            <Button
+              size="small"
+              variant="ghost"
+              icon={() => (
+                <img src="/assets/icons/instagram.png" style={{ width: 20 }} />
+              )}
+            />
+            <Button
+              size="small"
+              variant="ghost"
+              icon={() => (
+                <img src="/assets/icons/linkedin.png" style={{ width: 20 }} />
+              )}
+            />
+            <Button
+              size="small"
+              variant="ghost"
+              icon={() => (
+                <img src="/assets/icons/github.png" style={{ width: 20 }} />
+              )}
+            />
+          </div>
+        </div>
+        <div className={classes.contactForm}></div>
       </div>
     </div>
   );

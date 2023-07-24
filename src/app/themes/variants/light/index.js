@@ -20,6 +20,7 @@ const typography = {
   header3: {
     fontFamily: "Montserrat-Regular",
     borderLeft: "4px solid #72b76a",
+    paddingLeft: "1rem",
     textAlign: "left",
     fontSize: "4rem",
   },
