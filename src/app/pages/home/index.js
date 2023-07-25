@@ -51,7 +51,7 @@ const Home = () => {
         </div>
         <div className={classes.aboutImageContainer} id="about"></div>
       </div>
-      <div className={classes.area}>
+      <div className={classes.area} style={{ backgroundColor: colors.gray100 }}>
         <div className={classes.areaBox}>
           <img src="/assets/images/laptop.png" style={{ width: 160 }} />
           <span>{localize("web")}</span>
@@ -69,7 +69,7 @@ const Home = () => {
           style={{ backgroundColor: colors.gray100 }}
         >
           <div>
-            <Text variant="header3" color="white">
+            <Text variant="header3" color={colors.white}>
               {localize("contact")}
             </Text>
           </div>

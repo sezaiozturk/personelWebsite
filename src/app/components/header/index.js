@@ -1,16 +1,39 @@
 import useStyle from "./stylesheet";
-import { Button, useNCoreLocalization } from "ncore-web";
+import { Button, useNCoreLocalization, useNCoreTheme } from "ncore-web";
 import { MENU } from "../../constants";
 import { useNavigate } from "react-router-dom";
 const Header = () => {
   const classes = useStyle();
   const navigate = useNavigate();
   const { localize, switchLocale, activeLocale } = useNCoreLocalization();
+  const { activeTheme, switchTheme, colors } = useNCoreTheme();
   return (
     <div className={classes.container}>
       <div className={classes.logoContainer}>
         <span>SEZAİ</span>
         <span>ÖZTÜRK</span>
+      </div>
+      <div className={classes.themeContainer}>
+        <Button
+          variant="ghost"
+          size="small"
+          icon={() => (
+            <img src="/assets/icons/language.png" style={{ width: 30 }} />
+          )}
+          onClick={() => {
+            switchLocale(activeLocale === "tr" ? "en" : "tr");
+          }}
+        />
+        <Button
+          variant="ghost"
+          size="small"
+          icon={() => (
+            <img src="/assets/icons/theme.png" style={{ width: 30 }} />
+          )}
+          onClick={() => {
+            switchTheme(activeTheme === "light" ? "dark" : "light");
+          }}
+        />
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import { clickEvents } from "../../themes/helpers";
 const useStyle = createUseStyles(
   {
     container: {
+      justifyContent: "space-between",
       flexDirection: "row",
       alignItems: "center",
       position: "absolute",
@@ -26,6 +27,9 @@ const useStyle = createUseStyles(
         color: "white",
       },
       ...clickEvents(),
+    },
+    themeContainer: {
+      display: "flex",
     },
   },
   {
