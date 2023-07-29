@@ -11,7 +11,7 @@ const typography = {
     backdropFilter: "blur(1px)",
     padding: "3.5rem",
     fontSize: "5rem",
-    margin: "3rem",
+    margin: "5rem",
   },
   header2: {
     fontFamily: "Montserrat-Regular",

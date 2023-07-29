@@ -52,6 +52,7 @@ const useStyle = createUseStyles(
       width: 30,
       animation: "scroolAnim 1.5s ease infinite",
     },
+    "@media screen and (max-width:492px)": {},
   },
   {
     name: "Welcome-Section",

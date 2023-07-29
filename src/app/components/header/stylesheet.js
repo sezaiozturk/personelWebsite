@@ -31,6 +31,11 @@ const useStyle = createUseStyles(
     themeContainer: {
       display: "flex",
     },
+    "@media screen and (max-width:455px)": {
+      themeContainer: {
+        display: "none",
+      },
+    },
   },
   {
     name: "Header-Component",

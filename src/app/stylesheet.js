@@ -3,9 +3,15 @@ import { createUseStyles } from "react-jss";
 const useStyle = createUseStyles(
   {
     "@global": {
+      "*": {
+        boxSizing: "border-box",
+      },
       html: {
         fontSize: "62.5%",
         userSelect: "none",
+        "@media screen and (max-width: 900px)": {
+          fontSize: "50%",
+        },
       },
       "@font-face": [
         {

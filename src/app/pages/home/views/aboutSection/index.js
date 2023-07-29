@@ -29,7 +29,9 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <div className={classes.aboutImageContainer} id="about"></div>
+      <div className={classes.aboutImageContainer} id="about">
+        <img src="/assets/images/avatar.png" className={classes.profilePhoto} />
+      </div>
     </div>
   );
 };

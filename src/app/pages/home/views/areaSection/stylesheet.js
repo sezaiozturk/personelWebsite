@@ -18,7 +18,7 @@ const useStyle = createUseStyles(
       height: "100%",
       margin: "2rem",
       gap: "1.7rem",
-      width: "20%",
+      width: "30%",
       "& span:nth-child(2)": {
         fontSize: "2.3rem",
         color: ({ color }) => color.white,
@@ -27,6 +27,14 @@ const useStyle = createUseStyles(
         fontSize: "1.3rem",
         lineHeight: "2rem",
         color: ({ color }) => color.gray,
+      },
+    },
+    "@media screen and (max-width: 1000px)": {
+      area: {
+        flexDirection: "column",
+      },
+      areaBox: {
+        width: "80%",
       },
     },
   },
